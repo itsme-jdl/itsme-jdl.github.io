@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+</head>
+<style>
+    header {
+        width: 100%;
+        height: 690px;
+        background: url("images/bg1.jpg");
+        background-size: cover;
+        clip-path: polygon(50% 0%, 100% 0, 100% 90%, 50% 100%, 0 89%, 0 0);
+    }
+
+    .logo {
+        color: white;
+        font-size: 50px;
+        padding-left: 100px;
+        letter-spacing: 4px;
+        ;
+    }
+
+    .menu {
+        margin-right: 100px;
+    }
+
+    .menu a {
+        color: white;
+        text-decoration: none;
+        padding: 10px 20px;
+        margin: 5px;
+        font-size: 20px;
+        font-weight: bold;
+
+    }
+
+    nav {
+        width: 100%;
+        height: 70px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .logo span {
+        color: tomato;
+        transition: 0.4;
+    }
+
+    .menu a:hover {
+        background: orangered;
+    }
+
+    .text {
+        color: white;
+        margin-top: 100px;
+        margin-left: 100px;
+        max-width: 420px;
+    }
+
+    .text h1 {
+        font-size: 50px;
+    }
+
+    .text p {
+        font-size: 25px;
+    }
+
+    .text p span {
+        color: rgb(164, 19, 248);
+    }
+
+    #about {
+        padding: 100px 50px;
+    }
+
+    .section-info {
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .section-info h1 {
+        font-size: 50px;
+    }
+
+    .section-info p {
+        font-size: 25px;
+        color: rgb(163, 42, 219);
+    }
+
+    .about-row {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .about-left-col {
+        flex-basis: 30%;
+    }
+
+    .about-left-col img {
+        width: 90%;
+        padding: 30px;
+    }
+
+    .about-right-col {
+        flex-basis: 50%;
+
+    }
+
+    #p-title {
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .about-right-col p {
+        font-size: 20px;
+        text-align: justify;
+    }
+
+    #skills {
+        padding: 100px 50px;
+        background: url("images/bg.jpg");
+        background-size: cover;
+        color: white;
+    }
+
+    .skills-row {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        background: rgb(45, 52, 54);
+        padding: 50px;
+    }
+
+    .skills-left-col {
+        flex-basis: 50%;
+        text-align: justify;
+        ;
+    }
+
+    .skills-right-col {
+        flex-basis: 50%;
+    }
+
+    .skills-left-col p {
+        font-size: 20px;
+    }
+
+    progress {
+        width: 80%;
+    }
+
+    .progress-div {
+        width: 70%;
+        margin: auto;
+    }
+
+    .progress-div p {
+        margin-bottom: 10px;
+        font-size: 20px;
+        padding-left: 80px;
+        text-align: justify;
+    }
+
+    #contact {
+        padding: 100px 50px;
+
+    }
+
+    .contact-row {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .contact-left-col {
+        flex-basis: 50%;
+    }
+
+    #footer {
+        background: #e74c3c;
+        color: white;
+        padding: 20px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        font-size: 20px;
+    }
+
+    @media only screen and (max-width: 770px) {
+        header {
+            background: url('images/bg1.jpg');
+            background-size: cover;
+        }
+
+        .menu a {
+            display: none;
+        }
+
+        .logo {
+            padding-left: 50px;
+        }
+
+        .text {
+            margin-left: 50px;
+        }
+
+        .about-left-col {
+            flex-basis: 100%;
+        }
+
+        .about-left-col img {
+            width: 90%;
+            padding: 30px;
+        }
+
+        .about-right-col {
+            flex-basis: 100%;
+        }
+
+        .skills-left-col {
+            flex-basis: 100%;
+        }
+
+        .skills-right-col {
+            flex-basis: 100%;
+        }
+
+        .progress-div {
+            width: 100%;
+            margin: auto;
+            padding-top: 100px;
+        }
+
+
+
+
+    }
+</style>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">PORT<span>FOLIO</span> </div>
+            <div class="menu">
+                <a href="#"> Home</a>
+                <a href="#"> About</a>
+                <a href="#"> Skills</a>
+                <a href="#"> Services</a>
+                <a href="#"> Contact</a>
+            </div>
+        </nav>
+        <div class="text">
+            <p>Hello , This is</p>
+            <h1>Anurag Tiwari</h1>
+            <p>And I am learning <span>Web Developement</span></p>
+        </div>
+    </header>
+
+    <section id="about">
+        <div class="section-info">
+            <h1>About</h1>
+            <p>Who i am?</p>
+        </div>
+        <div class="about-row">
+            <div class="about-left-col">
+                <img src="images/about.jpg" alt="">
+            </div>
+            <div class="about-right-col">
+                <p id="p-title">Hello , I'm Anurag & I am a fresher!</p>
+                <p>
+                    After passing my 12th class from a govt. school , I got a new phone.Earlier I was in hostel, where
+                    mobile phones were striictly banned.Soon I got familier with social media and related things.
+                    After it time came for deciding my future which was my carrier.Till that time I had seen a lot of
+                    advertisement in the social media's about web-dev,app-dev,machine-learning and all.Eagerness came
+                    into my mind to create my own website and app.
+                    Soon I discovered that there are lot of free platforms from where i can build my own website and
+                    apps also.But my zeal didn't ended.I want to know the actual code written behind creating that
+                    website.So, finally after joining my college I got a chance to be a member of web-development club
+                    where I have started my journey in web-development.
+                </p>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="skills">
+        <div class="section-info">
+            <h1 style="color: white;">Skill's</h1>
+            <p>What i have?</p>
+        </div>
+
+        <div class="skills-row">
+            <div class="skills-left-col">
+                <p>In my journey after class 12th, I have started exploring a lot of new things which has made me a tech
+                    enthusiast.Day by day I am learning a lot new things which is making me full of joy.It has changed
+                    me in a lot of sense.I am eager to learn new things always & mostly about tech related things.
+                </p>
+            </div>
+            <div class="skills-right-col">
+                <div class="progress-div">
+                    <p>
+                        <span>HTML</span><br>
+                        <progress value="80" max="100"></progress>
+                        <span>80%</span>
+                    </p>
+
+                    <p>
+                        <span>CSS</span><br>
+                        <progress value="30" max="100"></progress>
+                        <span>30%</span>
+                    </p>
+
+                    <p>
+                        <span>Java</span><br>
+                        <progress value="20" max="100"></progress>
+                        <span>20%</span>
+                    </p>
+
+                    <p>
+                        <span>C/C++</span><br>
+                        <progress value="40" max="100"></progress>
+                        <span>40%</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="contact">
+        <div class="section-info">
+            <h1>Get in Touch</h1>
+            <p>Always there to Help!</p>
+        </div>
+        <div class="contact-row">
+            <div class="contact-left-col">
+                <img src="" alt="">
+            </div>
+        </div>
+    </section>
+    <section id="footer">
+        <h2>Developed by : <br>Anurag Ku. Tiwari</h2>
+        <a href="https://www.facebook.com/itsmejdl/" target="_blank"> <img src="images/fb.png" alt="Facebook"
+                width="60"></a>
+        <a href="https://www.instagram.com/_anu_.rag_/" target="_blank"><img src="images/insta.png" alt="Instagram"
+                width="60"></a>
+        <a href="https://www.linkedin.com/in/anurag-tiwari-753172146/" target="_blank"><img src="images/ld.png"
+                alt="Linkedin" width="60"></a>
+
+    </section>
+</body>
+
+</html>
