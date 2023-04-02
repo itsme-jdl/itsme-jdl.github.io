@@ -19,44 +19,44 @@ Project consists of a simple landing web page representing my biodata as a colle
 <img src="https://github.com/itsme-jdl/itsme-jdl.github.io/blob/main/portfolio_walkthrough/main.jpg" height="80%" width="80%" alt="Website Walkthrough"/>
 <br />
 <br />
-
-<!--
-About:
+<p align="center"> About:
 <br/>
 <br/>
-<img src="https://github.com/itsme-jdl/itsme-jdl.github.io/blob/main/portfolio_walkthrough/about.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/itsme-jdl/itsme-jdl.github.io/blob/main/portfolio_walkthrough/about.jpg" height="80%" width="80%" alt="Website Walkthrough"/>
 <br />
 <br />
-
-Enter the number of passes: <br/>
-<img src="https://i.imgur.com/nCIbXbg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<p align="center"> Skills:
+<br />
+<br/>
+<img src="https://github.com/itsme-jdl/itsme-jdl.github.io/blob/main/portfolio_walkthrough/skills.jpg" height="80%" width="80%" alt="Website Walkthrough"/>
 <br />
 <br />
-Confirm your selection:  <br/>
-<img src="https://i.imgur.com/cdFHBiU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<p align="center"> Contact:  
+<br />
+<br/>
+<img src="https://github.com/itsme-jdl/itsme-jdl.github.io/blob/main/portfolio_walkthrough/contact.jpg" height="80%" width="80%" alt="Website Walkthrough"/>
 <br />
 <br />
-Wait for process to complete (may take some time):  <br/>
-<img src="https://i.imgur.com/JL945Ga.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<p align="center"> Guess game:  
+<br />
+<br/>
+<img src="https://github.com/itsme-jdl/itsme-jdl.github.io/blob/main/portfolio_walkthrough/guess_game.jpg" height="80%" width="80%" alt="Website Walkthrough"/>
 <br />
 <br />
-Sanitization complete:  <br/>
-<img src="https://i.imgur.com/K71yaM2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<p align="center"> Correct guess:
+<br />
+<br/>
+<img src="https://github.com/itsme-jdl/itsme-jdl.github.io/blob/main/portfolio_walkthrough/corect_guess.jpg" height="80%" width="80%" alt="Website Walkthrough"/>
 <br />
 <br />
-Observe the wiped disk:  <br/>
-<img src="https://i.imgur.com/AeZkvFQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<p align="center"> Incorrect (high) guess: 
+<br/>
+<br />
+<img src="https://github.com/itsme-jdl/itsme-jdl.github.io/blob/main/portfolio_walkthrough/too_high_guessed.jpg" height="80%" width="80%" alt="Website Walkthrough"/>
+ <br/>
+ <br/>
+ <p align="center"> Incorrect (low) guess: 
+ <br />
+ <br/>
+ <img src="https://github.com/itsme-jdl/itsme-jdl.github.io/blob/main/portfolio_walkthrough/too_low_guessed.jpg" height="80%" width="80%" alt="Website Walkthrough"/>
 </p>
-
-
- ```diff
-- text in red
-+ text in green
-! text in orange
-# text in gray
-@@ text in purple (and bold)@@
-```
-
-
-
---!>
