@@ -12,16 +12,22 @@ Project consists of a simple landing web page representing my biodata as a colle
 - <b>JavaScript</b>
 
 <h2>Website walk-through:</h2>
+
+<p align="center"> Main Page: 
+<br/>
+<br/>
+<img src="https://github.com/itsme-jdl/itsme-jdl.github.io/blob/main/portfolio_walkthrough/main.jpg" height="80%" width="80%" alt="Website Walkthrough"/>
+<br />
+<br />
+
 <!--
-<p align="center">
-Launch the utility: <br/>
-<img src="https://drive.google.com/file/d/1NOyK3QbENYA1h0GgNBXS9O62b8PzIE5H/view?usp=share_link" height="80%" width="80%" alt="Website Walkthrough"/>
+About:
+<br/>
+<br/>
+<img src="https://github.com/itsme-jdl/itsme-jdl.github.io/blob/main/portfolio_walkthrough/about.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Select the disk:  <br/>
-<img src="https://i.imgur.com/tcTyMUE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
+
 Enter the number of passes: <br/>
 <img src="https://i.imgur.com/nCIbXbg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
