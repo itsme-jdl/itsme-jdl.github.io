@@ -37,6 +37,12 @@ Project consists of a simple landing web page representing my biodata as a colle
 <img src="https://github.com/itsme-jdl/itsme-jdl.github.io/blob/main/portfolio_walkthrough/contact.jpg" height="80%" width="80%" alt="Website Walkthrough"/>
 <br />
 <br />
+<p align="center"> Image Gallery:  
+<br />
+<br/>
+<img src="https://github.com/itsme-jdl/itsme-jdl.github.io/blob/main/portfolio_walkthrough/image gallery.jpg" height="80%" width="80%" alt="Website Walkthrough"/>
+<br />
+<br />
 <p align="center"> Guess game:  
 <br />
 <br/>
